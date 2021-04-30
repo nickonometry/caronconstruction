@@ -3,10 +3,10 @@
     <nav>
       <h1>
         <a href="/">
-          <!-- <img
+          <img
             src="~/assets/images/logo.png"
             alt="Caron Construction & Roofing"
-          /> -->
+          />
         </a>
       </h1>
       <ul class="nav-links" ref="navLinks">
