@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #060696;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+p {
+  margin: 16px 0;
+  color: #444;
+  font-size: 20px;
+}
+ul,
+li {
+  font-size: 16px;
+  color: #555;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+.span-full {
+  grid-column: 1/-1;
+}

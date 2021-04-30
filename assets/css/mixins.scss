@@ -1,0 +1,52 @@
+@import 'variables.scss';
+
+@mixin page-container() {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+@mixin page-container-mobile() {
+  padding: 2rem;
+  width: 100%;
+}
+
+@mixin inner-section() {
+  &:not(:first-child) {
+    margin-top: 6rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #323232;
+    font-size: 40px;
+  }
+}
+
+@mixin two-column() {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  row-gap: 16px;
+  column-gap: 56px;
+
+  img {
+    box-shadow: 0 0 85px 0 rgba(0, 0, 0, 0.1);
+    height: 450px;
+  }
+}
+
+@mixin two-column-mobile() {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 16px;
+  column-gap: 56px;
+
+  img {
+    box-shadow: 0 0 85px 0 rgba(0, 0, 0, 0.1);
+    height: 450px;
+  }
+}
