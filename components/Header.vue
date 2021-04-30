@@ -69,6 +69,9 @@ $hamgurger-bar-height: 5px;
 $hamgurger-bar-spacing: 5px;
 $hamgurger-transition-speed: 0.4s;
 
+header {
+  z-index: 15;
+}
 nav {
   font-family: 'Bebas Neue', cursive;
   display: flex;
