@@ -46,19 +46,19 @@
           </p>
           <p>We Never Rest On Reputation – We Just Build On It!</p>
         </div>
-        <!-- <ImageWrapper
+        <ImageWrapper
           height="600px"
           alt="Photo of a roof in the rain"
           image="https://images.unsplash.com/photo-1563174499-c1a4e1aa55ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
-        /> -->
+        />
       </section>
       <section class="two-column">
         <h3 class="span-full">Services</h3>
-        <!-- <ImageWrapper
+        <ImageWrapper
           height="600px"
           alt="Photo of a roof in the rain"
           image="https://images.unsplash.com/photo-1618090584126-129cd1f3fbae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=613&q=80"
-        /> -->
+        />
         <div>
           <p>
             At Caron Construction, we are not confined to one aspect of the
