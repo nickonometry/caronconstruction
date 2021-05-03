@@ -7,8 +7,8 @@ public_folder: /img
 
 collections:
   - name: 'Caron Roofing & Construction'
-    label: 'Blog'
-    folder: 'content/blog'
+    label: 'Photo Gallery'
+    folder: 'content/photos'
     format: 'frontmatter'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -16,6 +16,5 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Alt text', name: 'alttext', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
