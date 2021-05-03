@@ -12,10 +12,6 @@
 }
 
 @mixin inner-section() {
-  &:not(:first-child) {
-    margin-top: 6rem;
-  }
-
   h1,
   h2,
   h3,
@@ -29,6 +25,8 @@
 
 @mixin two-column() {
   display: grid;
+  max-width: $breakpoint-md;
+  margin: 0 auto;
   grid-template-columns: 1fr auto;
   row-gap: 16px;
   column-gap: 56px;

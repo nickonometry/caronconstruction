@@ -1,5 +1,8 @@
 :root {
   --primary-color: #060696;
+  --dark-gray: #494949;
+  --light-gray: #ececec;
+  --light-text: rgb(235, 235, 235);
 }
 
 body {
@@ -19,8 +22,10 @@ body {
 p {
   margin: 16px 0;
   color: #444;
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 32px;
 }
+
 ul,
 li {
   font-size: 16px;
