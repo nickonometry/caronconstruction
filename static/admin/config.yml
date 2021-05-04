@@ -18,22 +18,6 @@ collections:
     # filter: { field: 'project_type', value: 'photo' }
     fields:
       # - { label: 'Project Type', name: 'project_type', widget: 'select', options: ['story', 'photo'] }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - {
-          label: 'Description',
-          name: 'description',
-          widget: 'string',
-          required: false,
-        }
-      - { label: 'Content', name: 'body', widget: 'markdown', required: false }
-      - {
-          label: 'Cover Image',
-          name: 'cover',
-          widget: 'image',
-          required: false,
-          allow_multiple: false,
-        }
       - {
           label: 'Gallery',
           name: 'gallery',
