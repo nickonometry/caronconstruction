@@ -1,0 +1,9 @@
+{
+  "date": "2021-05-04T12:32:24.166Z",
+  "title": "This is a test",
+  "description": "Description is optional",
+  "cover": "/img/me-and-harley.jpg",
+  "gallery": [
+    "/img/me-and-harley.jpg"
+  ]
+}
