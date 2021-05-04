@@ -29,7 +29,7 @@ export default {
   color: #717790;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: min-content;
   z-index: 1;
 
   img {

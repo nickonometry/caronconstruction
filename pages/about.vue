@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <SubHeader
       title="About Us"
       image="https://images.unsplash.com/photo-1601284953533-6cadbbebb347?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
@@ -18,22 +18,6 @@
         </div>
       </section>
       <section class="wwd">
-        <svg
-          class="separator"
-          xmlns="http://www.w3.org/2000/svg"
-          width="100%"
-          height="64"
-          viewBox="0.5 0.2 176 30"
-          preserveAspectRatio="none"
-        >
-          <g transform="translate(-13.668562,-111.38266)">
-            <path
-              style="fill: #494949"
-              d="M 13.898015,111.51495 H 190.83044 v 26.19241 l -45.97036,-14.43255 -42.22858,7.48354 -45.970361,-14.96709 -31.003265,16.03617 z"
-            />
-          </g>
-        </svg>
-
         <div class="two-column">
           <h3 class="span-full">What We Do</h3>
           <div>
@@ -74,22 +58,7 @@
           />
         </div>
       </section>
-      <section>
-        <svg
-          class="separator"
-          xmlns="http://www.w3.org/2000/svg"
-          width="100%"
-          height="64"
-          viewBox="0.5 0.2 176 30"
-          preserveAspectRatio="none"
-        >
-          <g transform="translate(-13.668562,-111.38266)">
-            <path
-              style="fill: #ececec"
-              d="M 13.898015,111.51495 H 190.83044 v 26.19241 l -45.97036,-14.43255 -19.22858,7.48354 -45.970361,-14.96709 -31.003265,16.03617 z"
-            />
-          </g>
-        </svg>
+      <section class="services">
         <div class="two-column">
           <h3 class="span-full">Services</h3>
           <ImageWrapper
@@ -147,15 +116,15 @@ section {
 }
 
 .wwa {
-  background: var(--dark-gray);
-  h3,
-  p {
-    color: var(--light-text);
-  }
+  @include bg-triangles();
 }
 
 .wwd {
-  background: #ececec;
+  @include bg-triangles(#d6d6d6);
+}
+
+.services {
+  @include bg-triangles(#c7c7c7);
 }
 
 .separator {
