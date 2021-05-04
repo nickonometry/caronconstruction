@@ -10,7 +10,7 @@ collections:
     # identifier_field: name
     label: 'Photo Projects'
     label_singular: 'Photo Project'
-    folder: 'assets/content/photos'
+    folder: 'content/photos'
     create: true
     format: 'json'
     slug: '{{slug}}'
