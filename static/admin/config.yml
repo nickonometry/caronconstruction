@@ -6,10 +6,10 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'photo_projects'
+  - name: 'photo_gallery'
     # identifier_field: name
-    label: 'Photo Projects'
-    label_singular: 'Photo Project'
+    label: 'Photos'
+    label_singular: 'Photo Gallery'
     folder: 'content/photos'
     create: true
     format: 'json'
