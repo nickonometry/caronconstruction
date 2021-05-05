@@ -128,7 +128,3 @@ collections: # A list of collections the CMS should be able to edit
         widget: 'list'
         fields:
           - { label: 'Image', name: 'image', widget: 'image' }
-          - { label: 'File', name: 'file', widget: 'file' }
-          - label: 'Object'
-            name: 'object'
-            widget: 'object'
