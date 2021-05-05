@@ -23,3 +23,11 @@ collections:
         widget: 'list'
         summary: '{{fields.image}}'
         field: { label: Image, name: image, widget: image }
+  - name: 'galleria'
+    label: 'Gallery'
+    widget: 'list'
+    optional: true
+    fields:
+      - { label: 'Title', name: 'imgTitle', widget: 'string' }
+      - { label: 'Gallery Image', name: 'imgSrc', widget: 'image' }
+      - { label: 'Description', name: 'imgDesc', widget: 'string' }
