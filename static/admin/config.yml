@@ -6,23 +6,6 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'photo_gallery'
-    # identifier_field: name
-    label: 'Photos'
-    label_singular: 'Photo Gallery'
-    folder: 'content/photos'
-    create: true
-    format: 'json'
-    slug: '{{slug}}'
-    preview_path: 'photos/{{slug}}'
-    # filter: { field: 'project_type', value: 'photo' }
-    fields:
-      # - { label: 'Project Type', name: 'project_type', widget: 'select', options: ['story', 'photo'] }
-      - label: 'Gallery'
-        name: 'galleryImages'
-        widget: 'list'
-        summary: '{{fields.image}}'
-        field: { label: Image, name: image, widget: image }
   - name: 'galleria'
     label: 'Gallery'
     widget: 'list'
