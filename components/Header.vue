@@ -151,7 +151,7 @@ nav {
   }
 
   .bt-menu {
-    align-self: flex-start;
+    align-self: center;
     margin-top: 1rem;
     position: relative;
     border: none;
